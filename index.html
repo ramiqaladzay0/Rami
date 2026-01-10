@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="google-site-verification" content="googleeb1098d78b104bd7" />
+
     <title>Rami Mohammed | ramiqaladzay</title>
-    <meta name="description" content="Rami Mohammed - ramiqaladzay official profile.">
+    <meta name="description" content="Official profile of Rami Mohammed (ramiqaladzay). Follow me on TikTok, Instagram, Snapchat, and Facebook.">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Rami Mohammed | ramiqaladzay">
     <meta property="og:description" content="فۆڵۆم بکەن لە سۆشیاڵ میدیا">
-    <meta property="og:image" content="C240F28D-CAFC-4D8A-8E1D-CC11347D3A05.png"> <meta property="og:url" content="https://yourwebsite.com"> <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="C240F28D-CAFC-4D8A-8E1D-CC11347D3A05.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rami Mohammed">
+    <meta name="twitter:description" content="Rami Mohammed official links.">
     <meta name="twitter:image" content="C240F28D-CAFC-4D8A-8E1D-CC11347D3A05.png">
 
     <link rel="icon" type="image/png" href="C240F28D-CAFC-4D8A-8E1D-CC11347D3A05.png">
@@ -21,7 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
+        /* */
         body {
+            background-color: #0c0c0c; /* */
             background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), 
                               url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrXMhMUUYQsl9tIWAXrhiQycp-if5DZuGIKNvTLBmYFw&s=10');
             background-size: cover;
@@ -34,6 +42,7 @@
             min-height: 100vh;
             margin: 0;
             color: white;
+            overflow-x: hidden;
         }
 
         .container {
@@ -41,6 +50,7 @@
             width: 88%;
             max-width: 340px;
             padding: 15px;
+            contain: content;
         }
 
         .main-title {
@@ -67,6 +77,7 @@
         .link-card {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             padding: 14px 20px;
             border-radius: 50px;
             text-decoration: none;
@@ -74,17 +85,33 @@
             font-weight: 600;
             display: flex;
             align-items: center;
-            transition: 0.4s ease;
+            transition: transform 0.3s ease, border-color 0.3s ease;
             border: 1px solid rgba(255, 255, 255, 0.1);
+            will-change: transform;
         }
 
-        .tiktok:hover { border-color: #00f2ea; box-shadow: 0 0 20px rgba(0, 242, 234, 0.4); }
-        .snapchat:hover { border-color: #fffc00; box-shadow: 0 0 20px rgba(255, 252, 0, 0.4); }
-        .instagram:hover { border-color: #e1306c; box-shadow: 0 0 20px rgba(225, 48, 108, 0.4); }
-        .facebook:hover { border-color: #1877f2; box-shadow: 0 0 20px rgba(24, 119, 242, 0.4); }
+        .link-card:hover { transform: translateY(-3px); }
 
-        .brand-logo { width: 26px; height: 26px; border-radius: 50%; }
-        .link-text { flex-grow: 1; text-align: center; padding-left: 26px; font-size: 1rem; }
+        .tiktok:hover { border-color: #00f2ea; box-shadow: 0 0 15px rgba(0, 242, 234, 0.3); }
+        .snapchat:hover { border-color: #fffc00; box-shadow: 0 0 15px rgba(255, 252, 0, 0.3); }
+        .instagram:hover { border-color: #e1306c; box-shadow: 0 0 15px rgba(225, 48, 108, 0.3); }
+        .facebook:hover { border-color: #1877f2; box-shadow: 0 0 15px rgba(24, 119, 242, 0.3); }
+
+        .brand-logo { 
+            width: 26px; 
+            height: 26px; 
+            border-radius: 50%; 
+            flex-shrink: 0;
+            aspect-ratio: 1/1; /* */
+        }
+        
+        .link-text { 
+            flex-grow: 1; 
+            text-align: center; 
+            padding-left: 26px; 
+            font-size: 1rem; 
+            letter-spacing: 1px; 
+        }
 
         .footer { margin-top: 50px; }
         .quote { font-size: 0.85rem; opacity: 0.8; }
@@ -99,19 +126,22 @@
 
     <nav class="links-wrapper">
         <a href="https://www.tiktok.com/@rx.ramiii" class="link-card tiktok" target="_blank" rel="noopener">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJu4htpqrqU4_Yg4qoMqcl-kNT_4jLpGAiGPlxcvaow&s=10" class="brand-logo" alt="TikTok">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJu4htpqrqU4_Yg4qoMqcl-kNT_4jLpGAiGPlxcvaow&s=10" class="brand-logo" alt="TikTok" width="26" height="26">
             <span class="link-text">TIKTOK</span>
         </a>
+        
         <a href="https://snapchat.com/t/pU6an2oT" class="link-card snapchat" target="_blank" rel="noopener">
-            <img src="https://i.pinimg.com/474x/6f/4f/82/6f4f82da303ab2247088f61703f9d14c.jpg" class="brand-logo" alt="Snapchat">
+            <img src="https://i.pinimg.com/474x/6f/4f/82/6f4f82da303ab2247088f61703f9d14c.jpg" class="brand-logo" alt="Snapchat" width="26" height="26">
             <span class="link-text">SNAPCHAT</span>
         </a>
+        
         <a href="https://www.instagram.com/rx.ramii" class="link-card instagram" target="_blank" rel="noopener">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1IbzdQdmceoJL_AxfrBUk2_pODFiCw9RFZyRuuvAl8w&s" class="brand-logo" alt="Instagram">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1IbzdQdmceoJL_AxfrBUk2_pODFiCw9RFZyRuuvAl8w&s" class="brand-logo" alt="Instagram" width="26" height="26">
             <span class="link-text">INSTAGRAM</span>
         </a>
+        
         <a href="https://www.facebook.com/share/1AfKryYh4z/" class="link-card facebook" target="_blank" rel="noopener">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS75o4JKpuvcPb3Vf1ZY22blcloQVWTGLskFc1vLrfwEQ&s=10" class="brand-logo" alt="Facebook">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS75o4JKpuvcPb3Vf1ZY22blcloQVWTGLskFc1vLrfwEQ&s=10" class="brand-logo" alt="Facebook" width="26" height="26">
             <span class="link-text">FACEBOOK</span>
         </a>
     </nav>
